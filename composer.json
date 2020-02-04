@@ -1,0 +1,21 @@
+{
+    "name": "malavehaxiel/table-header",
+    "description": "build tables from helpers easily",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Haxiel Malave",
+            "email": "malavehaxiel96@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+		"psr-4": {
+			"MalaveHaxiel\\TableHeader\\": "/src"
+        },
+        "files": [
+            "src/helpers.php"
+          ]
+    }
+}
